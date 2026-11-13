@@ -1,0 +1,101 @@
+{
+  "id": "M4",
+  "nomor": 4,
+  "judul": "Pembagian",
+  "ringkas": "Kebalikan perkalian, aturan tanda sama",
+  "tujuan": "Menentukan hasil pembagian bilangan bulat sebagai kebalikan perkalian.",
+  "kartu": [
+    {
+      "judul": "Pembagian kebalikan perkalian",
+      "teks": "Karena 6 × (−4) = −24, maka −24 : 6 = −4 dan −24 : (−4) = 6.",
+      "visual": { "tipe": "ekspresi", "teks": "6 × (−4) = −24  ⇄  −24 : 6 = −4" }
+    },
+    {
+      "judul": "Aturan tanda sama dengan perkalian",
+      "teks": "Tanda sama → hasil positif. Tanda beda → hasil negatif.",
+      "visual": { "tipe": "tabelTanda" },
+      "pemandu": "Kalau sudah hafal tanda perkalian, berarti kamu juga sudah bisa tanda pembagian!"
+    },
+    {
+      "judul": "Pembagian dengan nol",
+      "teks": "0 : 5 = 0. Tetapi 5 : 0 tidak terdefinisi, karena tidak ada bilangan yang dikali 0 hasilnya 5.",
+      "visual": { "tipe": "ekspresi", "teks": "0 : 5 = 0     5 : 0 = tidak terdefinisi" }
+    }
+  ],
+  "contoh": {
+    "lengkap": [
+      {
+        "id": "WE-M4-01", "soal": "−24 : 6", "jawaban": -4,
+        "langkah": [
+          { "teks": "Cari bilangan yang dikali 6 hasilnya −24." },
+          { "teks": "6 × (−4) = −24." },
+          { "teks": "Jadi −24 : 6 = −4." }
+        ]
+      },
+      {
+        "id": "WE-M4-02", "soal": "−45 : (−5)", "jawaban": 9,
+        "langkah": [
+          { "teks": "Bagi angkanya: 45 : 5 = 9." },
+          { "teks": "Tentukan tanda: negatif : negatif = positif." },
+          { "teks": "Hasilnya 9. Cek: (−5) × 9 = −45." }
+        ]
+      }
+    ],
+    "berlubang": [
+      {
+        "id": "WE-M4-03", "soal": "36 : (−9)",
+        "langkah": [
+          { "teks": "Bagi angkanya: 36 : 9 = ___.", "isian": 4 },
+          { "teks": "Positif : negatif = negatif. Hasilnya ___.", "isian": -4 }
+        ]
+      },
+      {
+        "id": "WE-M4-04", "soal": "−28 : (−7)",
+        "langkah": [
+          { "teks": "Bagi angkanya: 28 : 7 = ___.", "isian": 4 },
+          { "teks": "Negatif : negatif = positif. Hasilnya ___.", "isian": 4 }
+        ]
+      }
+    ]
+  },
+  "latihan": [
+    {
+      "id": "L1-04", "tipe": "ekspresi", "soal": "20 : (−4)", "jawaban": -5,
+      "petunjuk": ["20 : 4 = 5.", "Positif : negatif hasilnya negatif."],
+      "umpanBalikKhusus": [{ "jawaban": 5, "miskonsepsi": "MK-04" }],
+      "contohMirip": "WE-M4-03"
+    },
+    {
+      "id": "L1-08", "tipe": "ekspresi", "soal": "−36 : (−9)", "jawaban": 4,
+      "petunjuk": ["36 : 9 = 4.", "Negatif : negatif hasilnya positif."],
+      "umpanBalikKhusus": [{ "jawaban": -4, "miskonsepsi": "MK-04" }],
+      "contohMirip": "WE-M4-02"
+    },
+    {
+      "id": "L1-18", "tipe": "ekspresi", "soal": "−56 : 8", "jawaban": -7,
+      "petunjuk": ["56 : 8 = 7.", "Negatif : positif hasilnya negatif."],
+      "umpanBalikKhusus": [{ "jawaban": 7, "miskonsepsi": "MK-04" }],
+      "contohMirip": "WE-M4-01"
+    },
+    {
+      "id": "L1-19", "tipe": "ekspresi", "soal": "63 : (−7)", "jawaban": -9,
+      "petunjuk": ["63 : 7 = 9.", "Tanda beda hasilnya negatif."],
+      "umpanBalikKhusus": [{ "jawaban": 9, "miskonsepsi": "MK-04" }],
+      "contohMirip": "WE-M4-03"
+    },
+    {
+      "id": "L1-20", "tipe": "ekspresi", "soal": "0 : (−6)", "jawaban": 0,
+      "petunjuk": ["Nol dibagi bilangan apa pun (selain nol) hasilnya …"],
+      "contohMirip": "WE-M4-01"
+    }
+  ],
+  "jelaskan": [
+    {
+      "pertanyaan": "Mengapa −45 : (−5) = 9?",
+      "opsi": ["Karena (−5) × 9 = −45", "Karena 45 : 5 = 9 dan tandanya diabaikan", "Karena negatif : negatif = negatif"],
+      "kunci": 0,
+      "penjelasan": "Pembagian adalah kebalikan perkalian. Karena (−5) × 9 = −45, maka −45 : (−5) = 9."
+    }
+  ],
+  "literasi": ["STM-M4"]
+}

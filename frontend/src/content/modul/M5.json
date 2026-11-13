@@ -1,0 +1,89 @@
+{
+  "id": "M5",
+  "nomor": 5,
+  "judul": "Operasi Campuran",
+  "ringkas": "Urutan operasi dan tanda kurung",
+  "tujuan": "Menyelesaikan operasi hitung campuran sesuai urutan operasi.",
+  "kartu": [
+    {
+      "judul": "Mengapa perlu aturan?",
+      "teks": "Tanpa aturan, 8 + 4 × (−3) bisa dihitung berbeda-beda. Semua orang memakai urutan yang sama agar hasilnya sama.",
+      "visual": { "tipe": "ekspresi", "teks": "8 + 4 × (−3) = ?" }
+    },
+    {
+      "judul": "Tiga anak tangga",
+      "teks": "① Kerjakan tanda kurung. ② Kali dan bagi, dari kiri. ③ Tambah dan kurang, dari kiri.",
+      "visual": { "tipe": "tangga" },
+      "pemandu": "Naik tangga satu per satu, jangan dilompati!"
+    },
+    {
+      "judul": "Kali dan bagi setara",
+      "teks": "12 : 3 × 2 dikerjakan dari kiri: 12 : 3 = 4, lalu 4 × 2 = 8. Bukan 12 : 6.",
+      "visual": { "tipe": "ekspresi", "teks": "12 : 3 × 2 = 4 × 2 = 8" }
+    },
+    {
+      "judul": "Tambah dan kurang setara",
+      "teks": "10 − 3 + 2 dikerjakan dari kiri: 10 − 3 = 7, lalu 7 + 2 = 9.",
+      "visual": { "tipe": "ekspresi", "teks": "10 − 3 + 2 = 7 + 2 = 9" },
+      "pemandu": "KUKABATAKU bukan berarti kali selalu sebelum bagi. Kali dan bagi itu setara."
+    }
+  ],
+  "contoh": {
+    "lengkap": [
+      { "id": "WE-M5-01", "soal": "8 + 4 × (−3)", "otomatis": true },
+      { "id": "WE-M5-02", "soal": "−20 : 4 − 3 × (−2)", "otomatis": true },
+      { "id": "WE-M5-04", "soal": "3 × (−4 + 10) − 18 : (−3)", "otomatis": true }
+    ],
+    "berlubang": [
+      { "id": "WE-M5-03", "soal": "12 : 3 × 2", "otomatis": true },
+      { "id": "WE-M5-05", "soal": "6 − 4 × (−2)", "otomatis": true }
+    ]
+  },
+  "latihan": [
+    {
+      "id": "L2-01", "tipe": "ekspresi", "mode": "langkah", "soal": "−12 : 3 + (−4) × 2", "jawaban": -12,
+      "petunjuk": ["Ada pembagian dan perkalian. Kerjakan keduanya sebelum penjumlahan.", "−12 : 3 = −4 dan (−4) × 2 = −8."],
+      "umpanBalikKhusus": [{ "jawaban": -16, "miskonsepsi": "MK-06" }],
+      "contohMirip": "WE-M5-02"
+    },
+    {
+      "id": "L2-02", "tipe": "ekspresi", "mode": "langkah", "soal": "15 − (−5) × 3 + 10", "jawaban": 40,
+      "petunjuk": ["Cari operasi kali atau bagi lebih dulu.", "Hitung (−5) × 3 dulu, lalu kerjakan dari kiri."],
+      "umpanBalikKhusus": [{ "jawaban": 70, "miskonsepsi": "MK-06" }, { "jawaban": 10, "miskonsepsi": "MK-03" }],
+      "contohMirip": "WE-M5-02"
+    },
+    {
+      "id": "L2-03", "tipe": "ekspresi", "mode": "langkah", "soal": "5 × (−2 + 7) : (−5)", "jawaban": -5,
+      "petunjuk": ["Kerjakan yang di dalam kurung dulu.", "Lalu kali dan bagi dari kiri."],
+      "umpanBalikKhusus": [{ "jawaban": 5, "miskonsepsi": "MK-04" }],
+      "contohMirip": "WE-M5-04"
+    },
+    {
+      "id": "L2-04", "tipe": "ekspresi", "mode": "langkah", "soal": "10 − 3 + 2", "jawaban": 9,
+      "petunjuk": ["Tambah dan kurang setara.", "Kerjakan dari kiri: 10 − 3 dulu."],
+      "umpanBalikKhusus": [{ "jawaban": 5, "miskonsepsi": "MK-07" }],
+      "contohMirip": "WE-M5-03"
+    },
+    {
+      "id": "L2-05", "tipe": "ekspresi", "mode": "langkah", "soal": "24 : (−6) × 2", "jawaban": -8,
+      "petunjuk": ["Kali dan bagi setara.", "Kerjakan dari kiri: 24 : (−6) dulu."],
+      "umpanBalikKhusus": [{ "jawaban": -2, "miskonsepsi": "MK-07" }],
+      "contohMirip": "WE-M5-03"
+    },
+    {
+      "id": "L2-06", "tipe": "ekspresi", "mode": "langkah", "soal": "−2 × (5 − (−3))", "jawaban": -16,
+      "petunjuk": ["Kerjakan kurung dulu: 5 − (−3).", "5 − (−3) = 5 + 3."],
+      "umpanBalikKhusus": [{ "jawaban": -4, "miskonsepsi": "MK-03" }],
+      "contohMirip": "WE-M5-04"
+    }
+  ],
+  "jelaskan": [
+    {
+      "pertanyaan": "Pada 15 − (−5) × 3 + 10, mengapa (−5) × 3 dikerjakan lebih dulu?",
+      "opsi": ["Karena kali dikerjakan sebelum tambah dan kurang", "Karena letaknya di tengah", "Karena bilangan negatif selalu dikerjakan dulu"],
+      "kunci": 0,
+      "penjelasan": "Urutan operasi: kurung, lalu kali dan bagi, baru tambah dan kurang. Letak atau tanda bilangan tidak menentukan urutan."
+    }
+  ],
+  "literasi": ["STM-M5"]
+}

@@ -1,0 +1,113 @@
+{
+  "id": "M3",
+  "nomor": 3,
+  "judul": "Perkalian",
+  "ringkas": "Penjumlahan berulang dan aturan tanda",
+  "tujuan": "Menentukan hasil perkalian bilangan bulat dan menjelaskan aturan tanda melalui pola.",
+  "kartu": [
+    {
+      "judul": "Perkalian = penjumlahan berulang",
+      "teks": "4 × (−3) artinya −3 ditambahkan 4 kali: (−3) + (−3) + (−3) + (−3) = −12.",
+      "visual": { "tipe": "garis", "mulai": 0, "langkah": [-3, -3, -3, -3] },
+      "pemandu": "Lompat 3 ke kiri, sebanyak 4 kali!"
+    },
+    {
+      "judul": "Temukan polanya",
+      "teks": "Lihat kolom hasil. Setiap baris hasilnya bertambah 2. Apa yang terjadi saat dikali bilangan negatif?",
+      "visual": {
+        "tipe": "tabelPola",
+        "kolom": ["Perkalian", "Hasil"],
+        "baris": [["3 × (−2)", "−6"], ["2 × (−2)", "−4"], ["1 × (−2)", "−2"], ["0 × (−2)", "0"], ["(−1) × (−2)", "2"], ["(−2) × (−2)", "4"]],
+        "catatan": "Setelah 0, pola terus bertambah 2. Jadi (−1) × (−2) = 2: negatif × negatif = positif."
+      }
+    },
+    {
+      "judul": "Aturan tanda",
+      "teks": "Tanda sama → hasil positif. Tanda beda → hasil negatif. Aturan ini hanya untuk kali dan bagi.",
+      "visual": { "tipe": "tabelTanda" }
+    },
+    {
+      "judul": "Kali 0 dan kali 1",
+      "teks": "Bilangan apa pun dikali 0 hasilnya 0. Dikali 1 hasilnya bilangan itu sendiri.",
+      "visual": { "tipe": "ekspresi", "teks": "(−7) × 0 = 0    (−7) × 1 = −7" }
+    }
+  ],
+  "contoh": {
+    "lengkap": [
+      {
+        "id": "WE-M3-01", "soal": "4 × (−3)", "jawaban": -12,
+        "visual": { "tipe": "garis", "mulai": 0, "langkah": [-3, -3, -3, -3] },
+        "langkah": [
+          { "teks": "Kalikan angkanya: 4 × 3 = 12." },
+          { "teks": "Tentukan tanda: positif × negatif = negatif." },
+          { "teks": "Hasilnya −12." }
+        ]
+      },
+      {
+        "id": "WE-M3-02", "soal": "(−8) × (−2)", "jawaban": 16,
+        "langkah": [
+          { "teks": "Kalikan angkanya: 8 × 2 = 16." },
+          { "teks": "Tentukan tanda: negatif × negatif = positif." },
+          { "teks": "Hasilnya 16." }
+        ]
+      }
+    ],
+    "berlubang": [
+      {
+        "id": "WE-M3-03", "soal": "(−6) × 5",
+        "langkah": [
+          { "teks": "Kalikan angkanya: 6 × 5 = ___.", "isian": 30 },
+          { "teks": "Negatif × positif = negatif. Hasilnya ___.", "isian": -30 }
+        ]
+      },
+      {
+        "id": "WE-M3-04", "soal": "(−1) × (−1) × (−1)",
+        "langkah": [
+          { "teks": "Kerjakan dari kiri: (−1) × (−1) = ___.", "isian": 1 },
+          { "teks": "Lalu 1 × (−1) = ___.", "isian": -1 }
+        ]
+      }
+    ]
+  },
+  "latihan": [
+    {
+      "id": "L1-02", "tipe": "ekspresi", "soal": "−7 × (−6)", "jawaban": 42,
+      "petunjuk": ["Kalikan angkanya dulu: 7 × 6.", "Negatif × negatif hasilnya positif."],
+      "umpanBalikKhusus": [{ "jawaban": -42, "miskonsepsi": "MK-04" }, { "jawaban": -13, "miskonsepsi": "MK-05" }],
+      "contohMirip": "WE-M3-02"
+    },
+    {
+      "id": "L1-07", "tipe": "ekspresi", "soal": "(−6) × 5", "jawaban": -30,
+      "petunjuk": ["6 × 5 = 30.", "Negatif × positif hasilnya negatif."],
+      "umpanBalikKhusus": [{ "jawaban": 30, "miskonsepsi": "MK-04" }],
+      "contohMirip": "WE-M3-03"
+    },
+    {
+      "id": "L1-15", "tipe": "ekspresi", "soal": "9 × (−4)", "jawaban": -36,
+      "petunjuk": ["9 × 4 = 36.", "Positif × negatif hasilnya negatif."],
+      "umpanBalikKhusus": [{ "jawaban": 36, "miskonsepsi": "MK-04" }],
+      "contohMirip": "WE-M3-01"
+    },
+    {
+      "id": "L1-16", "tipe": "ekspresi", "soal": "(−3) × (−11)", "jawaban": 33,
+      "petunjuk": ["3 × 11 = 33.", "Tanda sama hasilnya positif."],
+      "umpanBalikKhusus": [{ "jawaban": -33, "miskonsepsi": "MK-04" }],
+      "contohMirip": "WE-M3-02"
+    },
+    {
+      "id": "L1-17", "tipe": "ekspresi", "soal": "(−2) × 3 × (−5)", "jawaban": 30,
+      "petunjuk": ["Kerjakan dari kiri: (−2) × 3 dulu.", "(−2) × 3 = −6, lalu −6 × (−5)."],
+      "umpanBalikKhusus": [{ "jawaban": -30, "miskonsepsi": "MK-04" }],
+      "contohMirip": "WE-M3-04"
+    }
+  ],
+  "jelaskan": [
+    {
+      "pertanyaan": "Pada tabel pola, mengapa (−1) × (−2) = 2?",
+      "opsi": ["Karena hasilnya bertambah 2 setiap baris, jadi setelah 0 hasilnya 2", "Karena minus ketemu minus selalu plus, juga untuk tambah", "Karena 1 + 1 = 2"],
+      "kunci": 0,
+      "penjelasan": "Polanya: −6, −4, −2, 0, lalu 2. Pola yang konsisten menunjukkan negatif × negatif = positif. Ingat, aturan ini hanya untuk kali dan bagi."
+    }
+  ],
+  "literasi": ["STM-M3"]
+}

@@ -1,0 +1,42 @@
+{
+  "MK-01": {
+    "nama": "Tanda negatif dianggap milik seluruh operasi",
+    "pesan": "Tanda negatif hanya milik bilangan pertama. Mulai dari bilangan itu di garis bilangan, lalu bergerak sesuai bilangan kedua."
+  },
+  "MK-02": {
+    "nama": "Salah arah gerak di garis bilangan",
+    "pesan": "Periksa arah gerakmu. Menambah bilangan positif berarti ke kanan, menambah bilangan negatif berarti ke kiri."
+  },
+  "MK-03": {
+    "nama": "Mengurangi bilangan negatif dianggap mengurangi biasa",
+    "pesan": "Mengurangi bilangan negatif sama dengan menambah lawannya. Contoh: 12 − (−5) = 12 + 5."
+  },
+  "MK-04": {
+    "nama": "Salah aturan tanda pada kali/bagi",
+    "pesan": "Periksa tandanya. Pada kali dan bagi: tanda sama hasilnya positif, tanda beda hasilnya negatif."
+  },
+  "MK-05": {
+    "nama": "Aturan tanda kali dipakai pada penjumlahan",
+    "pesan": "Aturan \"negatif dan negatif jadi positif\" hanya untuk kali dan bagi. Untuk tambah, pakai garis bilangan."
+  },
+  "MK-06": {
+    "nama": "Mengerjakan dari kiri tanpa urutan operasi",
+    "pesan": "Jangan langsung dari kiri. Kali dan bagi dikerjakan sebelum tambah dan kurang."
+  },
+  "MK-07": {
+    "nama": "KUKABATAKU diartikan kaku",
+    "pesan": "Kali dan bagi setara, kerjakan dari kiri. Tambah dan kurang juga setara, kerjakan dari kiri."
+  },
+  "MK-08": {
+    "nama": "Salah memodelkan soal cerita",
+    "pesan": "Baca lagi soalnya pelan-pelan. Ada informasi yang terlewat atau salah dimodelkan."
+  },
+  "MK-09": {
+    "nama": "Mengabaikan tanda negatif pada konteks",
+    "pesan": "Perhatikan keadaan di bawah nol pada soal. Keadaan itu ditulis dengan bilangan negatif."
+  },
+  "MK-10": {
+    "nama": "Mengabaikan tanda kurung",
+    "pesan": "Kerjakan bagian di dalam tanda kurung lebih dulu."
+  }
+}

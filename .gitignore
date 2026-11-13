@@ -1,0 +1,21 @@
+# JavaScript
+node_modules/
+frontend/dist/
+frontend/dist-demo/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# Data & rahasia — JANGAN di-commit
+*.db
+.env
+analisis/data/*
+!analisis/data/.gitkeep
+
+# Sistem
+.DS_Store
+Thumbs.db

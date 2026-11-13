@@ -1,0 +1,135 @@
+{
+  "id": "M6",
+  "nomor": 6,
+  "judul": "Soal Cerita",
+  "ringkas": "Lima langkah menyelesaikan soal cerita",
+  "tujuan": "Menyelesaikan masalah kontekstual yang berkaitan dengan operasi bilangan bulat.",
+  "kartu": [
+    {
+      "judul": "Lima langkah soal cerita",
+      "teks": "Kerjakan soal cerita pelan-pelan, satu langkah setiap kali.",
+      "visual": { "tipe": "daftar", "butir": ["1. Diketahui: angka apa saja yang penting?", "2. Ditanya: apa yang dicari?", "3. Model: tulis operasinya", "4. Hitung: ikuti urutan operasi", "5. Kesimpulan: jawab dengan kalimat dan satuan"] }
+    },
+    {
+      "judul": "Kata petunjuk",
+      "teks": "Kata-kata ini bisa membantu memilih operasi. Tetapi selalu cek apakah masuk akal!",
+      "visual": { "tipe": "daftar", "butir": ["naik, bertambah, maju → +", "turun, berkurang, mundur → −", "setiap, sebanyak … kali → ×", "dibagi rata → :"] }
+    },
+    {
+      "judul": "Cek kewajaran",
+      "teks": "Setelah menghitung, tanyakan: apakah tandanya masuk akal? Apakah satuannya benar?",
+      "pemandu": "Kalau es batu dihangatkan tapi suhunya makin dingin, pasti ada yang salah!"
+    }
+  ],
+  "contoh": {
+    "lengkap": [
+      {
+        "id": "WE-M6-01",
+        "soal": "Seorang penyelam berada 15 meter di bawah permukaan laut. Ia naik 4 meter setiap menit selama 3 menit. Di mana posisinya sekarang?",
+        "jawaban": -3,
+        "langkah": [
+          { "teks": "Diketahui: posisi awal −15 m, naik 4 m setiap menit, selama 3 menit." },
+          { "teks": "Ditanya: posisi penyelam setelah 3 menit." },
+          { "teks": "Model: −15 + 3 × 4." },
+          { "teks": "Hitung: 3 × 4 = 12, lalu −15 + 12 = −3." },
+          { "teks": "Kesimpulan: penyelam berada 3 meter di bawah permukaan laut. Masuk akal, karena ia naik tetapi belum sampai permukaan." }
+        ]
+      }
+    ],
+    "berlubang": [
+      {
+        "id": "WE-M6-02",
+        "soal": "Suhu di puncak gunung pagi hari −3 °C. Siang hari suhu naik 8 °C, lalu malam hari turun 6 °C dari suhu siang. Berapa suhu malam hari?",
+        "langkah": [
+          { "teks": "Suhu pagi = ___ °C.", "isian": -3 },
+          { "teks": "Suhu siang = −3 + 8 = ___ °C.", "isian": 5 },
+          { "teks": "Suhu malam = 5 − 6 = ___ °C.", "isian": -1 },
+          { "teks": "Kesimpulan: suhu malam hari −1 °C." }
+        ]
+      }
+    ]
+  },
+  "latihan": [
+    {
+      "id": "L3-01", "tipe": "cerita",
+      "kalimat": [
+        "Sebuah es batu mula-mula memiliki suhu −6 °C setelah dikeluarkan dari kulkas.",
+        "Ketika diletakkan di ruang terbuka, suhu es batu tersebut naik 2 °C setiap 3 menit.",
+        "Berapakah suhu es batu itu setelah didiamkan selama 15 menit di ruang terbuka?"
+      ],
+      "diketahui": ["Suhu awal: −6 °C", "Kenaikan: 2 °C setiap 3 menit", "Waktu: 15 menit"],
+      "pilihanDitanya": ["Suhu es batu setelah 15 menit", "Lama es batu mencair", "Kenaikan suhu setiap menit"],
+      "kunciDitanya": 0,
+      "pilihanModel": ["−6 + (15 : 3) × 2", "−6 + 2 × 15", "6 + (15 : 3) × 2"],
+      "kunciModel": 0,
+      "model": "−6 + (15 : 3) × 2",
+      "jawaban": 4, "satuan": "°C",
+      "kesimpulan": "Suhu es batu setelah 15 menit adalah 4 °C.",
+      "tafsir": "Masuk akal: es batu menghangat dari −6 °C sampai di atas nol.",
+      "petunjuk": ["Berapa kali \"3 menit\" dalam 15 menit?", "15 : 3 = 5 kali, setiap kali naik 2 °C."],
+      "umpanBalikKhusus": [
+        { "jawaban": 24, "miskonsepsi": "MK-08", "pesan": "Suhunya naik 2 °C setiap 3 menit, bukan setiap menit. Berapa kali 3 menit dalam 15 menit?" },
+        { "jawaban": -1, "miskonsepsi": "MK-08", "pesan": "15 : 3 = 5 adalah banyaknya kenaikan. Setiap kenaikan besarnya 2 °C." },
+        { "jawaban": 16, "miskonsepsi": "MK-09", "pesan": "Suhu awal es batu di bawah nol. Tuliskan dengan bilangan negatif." }
+      ],
+      "contohMirip": "WE-M6-01"
+    },
+    {
+      "id": "L3-05", "tipe": "cerita",
+      "kalimat": [
+        "Sebuah lift berada di lantai 5.",
+        "Lift turun 2 lantai, sebanyak 4 kali.",
+        "Lantai bawah tanah ditulis dengan bilangan negatif, lantai dasar adalah 0.",
+        "Di lantai berapa lift sekarang?"
+      ],
+      "diketahui": ["Posisi awal: lantai 5", "Turun 2 lantai, 4 kali", "Bawah tanah = negatif"],
+      "pilihanDitanya": ["Posisi lift sekarang", "Jumlah lantai gedung", "Lama lift bergerak"],
+      "kunciDitanya": 0,
+      "pilihanModel": ["5 + 4 × (−2)", "5 − 4 − 2", "(5 + 4) × (−2)"],
+      "kunciModel": 0,
+      "model": "5 + 4 × (−2)",
+      "jawaban": -3, "satuan": "",
+      "kesimpulan": "Lift berada di lantai −3.",
+      "tafsir": "−3 berarti 3 lantai di bawah lantai dasar, yaitu lantai B3.",
+      "petunjuk": ["Turun 2 lantai ditulis −2.", "4 kali turun: 4 × (−2)."],
+      "umpanBalikKhusus": [
+        { "jawaban": -1, "miskonsepsi": "MK-08", "pesan": "Lift turun 2 lantai sebanyak 4 kali, jadi totalnya 4 × (−2)." },
+        { "jawaban": -18, "miskonsepsi": "MK-06", "pesan": "Kali dikerjakan dulu: 4 × (−2), baru ditambah 5." }
+      ],
+      "contohMirip": "WE-M6-01"
+    },
+    {
+      "id": "L3-04", "tipe": "cerita",
+      "kalimat": [
+        "Dalam sebuah kuis, jawaban benar diberi skor 4, salah diberi skor −2, dan tidak dijawab diberi skor −1.",
+        "Dari 40 soal, Rani menjawab benar 28 soal dan salah 8 soal.",
+        "Sisanya tidak dijawab.",
+        "Berapa skor Rani?"
+      ],
+      "diketahui": ["Benar: 28 soal × 4", "Salah: 8 soal × (−2)", "Tidak dijawab: 40 − 28 − 8 = 4 soal × (−1)"],
+      "pilihanDitanya": ["Skor total Rani", "Banyak soal yang tidak dijawab", "Skor jawaban benar saja"],
+      "kunciDitanya": 0,
+      "pilihanModel": ["28 × 4 + 8 × (−2) + 4 × (−1)", "28 × 4 + 8 × 2 + 4 × 1", "(28 + 8 + 4) × 4"],
+      "kunciModel": 0,
+      "model": "28 × 4 + 8 × (−2) + 4 × (−1)",
+      "jawaban": 92, "satuan": "",
+      "kesimpulan": "Skor Rani adalah 92.",
+      "tafsir": "Masuk akal: lebih kecil dari 28 × 4 = 112 karena ada jawaban salah dan kosong.",
+      "petunjuk": ["Hitung dulu berapa soal yang tidak dijawab.", "Kerjakan semua perkalian dulu, lalu jumlahkan."],
+      "umpanBalikKhusus": [
+        { "jawaban": 112, "miskonsepsi": "MK-08", "pesan": "Jawaban salah dan tidak dijawab juga mengubah skor." },
+        { "jawaban": 132, "miskonsepsi": "MK-09", "pesan": "Skor salah dan tidak dijawab bernilai negatif, jadi mengurangi skor." }
+      ],
+      "contohMirip": "WE-M6-01"
+    }
+  ],
+  "jelaskan": [
+    {
+      "pertanyaan": "Mengapa pada soal es batu kita menghitung 15 : 3 lebih dulu?",
+      "opsi": ["Untuk mengetahui berapa kali suhu naik 2 °C", "Karena pembagian selalu dikerjakan pertama", "Karena 15 adalah angka terbesar"],
+      "kunci": 0,
+      "penjelasan": "Suhu naik setiap 3 menit. Dalam 15 menit ada 15 : 3 = 5 kali kenaikan."
+    }
+  ],
+  "literasi": ["STM-C"]
+}

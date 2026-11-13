@@ -1,0 +1,87 @@
+{
+  "prasyarat": {
+    "judul": "Tes Prasyarat",
+    "petunjuk": "6 soal singkat untuk mengecek kemampuan dasarmu. Tidak ada nilai buruk, kerjakan sebisamu.",
+    "batasLulus": 60,
+    "butir": [
+      { "id": "P1", "tipe": "pilihan", "soal": "Manakah yang lebih besar?", "opsi": ["−3", "−8"], "kunci": 0 },
+      { "id": "P2", "tipe": "pilihan", "soal": "Lawan dari 9 adalah …", "opsi": ["9", "−9", "0"], "kunci": 1 },
+      { "id": "P3", "tipe": "isian", "soal": "25 + 17", "model": "25 + 17", "jawaban": 42 },
+      { "id": "P4", "tipe": "isian", "soal": "50 − 23", "model": "50 − 23", "jawaban": 27 },
+      { "id": "P5", "tipe": "isian", "soal": "7 × 8", "model": "7 × 8", "jawaban": 56 },
+      { "id": "P6", "tipe": "isian", "soal": "72 : 9", "model": "72 : 9", "jawaban": 8 }
+    ]
+  },
+  "pretest": {
+    "judul": "Tes Awal",
+    "petunjuk": "10 soal operasi bilangan bulat. Kerjakan sendiri tanpa bantuan.",
+    "butir": [
+      { "id": "PRE-01", "tipe": "isian", "soal": "−9 + 14", "model": "−9 + 14", "jawaban": 5 },
+      { "id": "PRE-02", "tipe": "isian", "soal": "−6 × (−7)", "model": "−6 × (−7)", "jawaban": 42 },
+      { "id": "PRE-03", "tipe": "isian", "soal": "15 − (−4)", "model": "15 − (−4)", "jawaban": 19 },
+      { "id": "PRE-04", "tipe": "isian", "soal": "32 : (−8)", "model": "32 : (−8)", "jawaban": -4 },
+      { "id": "PRE-05", "tipe": "isian", "soal": "−18 : 6 + (−2) × 3", "model": "−18 : 6 + (−2) × 3", "jawaban": -9 },
+      { "id": "PRE-06", "tipe": "isian", "soal": "20 − (−4) × 2 + 5", "model": "20 − (−4) × 2 + 5", "jawaban": 33 },
+      { "id": "PRE-07", "tipe": "isian", "soal": "4 × (−3 + 8) : (−2)", "model": "4 × (−3 + 8) : (−2)", "jawaban": -10 },
+      { "id": "PRE-08", "tipe": "isian", "soal": "12 − 5 + 3", "model": "12 − 5 + 3", "jawaban": 10 },
+      { "id": "PRE-09", "tipe": "isian", "soal": "Suhu awal sebuah benda −8 °C. Suhunya naik 3 °C setiap 2 menit. Berapa suhunya setelah 10 menit?", "model": "−8 + (10 : 2) × 3", "jawaban": 7, "satuan": "°C" },
+      { "id": "PRE-10", "tipe": "isian", "soal": "Pada kuis 30 soal, benar diberi skor 3, salah −1, tidak dijawab 0. Budi menjawab benar 20 dan salah 6. Berapa skor Budi?", "model": "20 × 3 + 6 × (−1) + 4 × 0", "jawaban": 54 }
+    ]
+  },
+  "posttest": {
+    "judul": "Tes Akhir",
+    "petunjuk": "10 soal operasi bilangan bulat. Kerjakan sendiri tanpa bantuan.",
+    "butir": [
+      { "id": "POST-01", "tipe": "isian", "soal": "−7 + 13", "model": "−7 + 13", "jawaban": 6 },
+      { "id": "POST-02", "tipe": "isian", "soal": "−8 × (−5)", "model": "−8 × (−5)", "jawaban": 40 },
+      { "id": "POST-03", "tipe": "isian", "soal": "11 − (−6)", "model": "11 − (−6)", "jawaban": 17 },
+      { "id": "POST-04", "tipe": "isian", "soal": "42 : (−6)", "model": "42 : (−6)", "jawaban": -7 },
+      { "id": "POST-05", "tipe": "isian", "soal": "−24 : 8 + (−3) × 4", "model": "−24 : 8 + (−3) × 4", "jawaban": -15 },
+      { "id": "POST-06", "tipe": "isian", "soal": "18 − (−6) × 2 + 4", "model": "18 − (−6) × 2 + 4", "jawaban": 34 },
+      { "id": "POST-07", "tipe": "isian", "soal": "6 × (−1 + 5) : (−3)", "model": "6 × (−1 + 5) : (−3)", "jawaban": -8 },
+      { "id": "POST-08", "tipe": "isian", "soal": "15 − 6 + 4", "model": "15 − 6 + 4", "jawaban": 13 },
+      { "id": "POST-09", "tipe": "isian", "soal": "Suhu awal sebuah benda −10 °C. Suhunya naik 4 °C setiap 3 menit. Berapa suhunya setelah 12 menit?", "model": "−10 + (12 : 3) × 4", "jawaban": 6, "satuan": "°C" },
+      { "id": "POST-10", "tipe": "isian", "soal": "Pada kuis 25 soal, benar diberi skor 4, salah −2, tidak dijawab −1. Wati menjawab benar 15 dan salah 7. Berapa skor Wati?", "model": "15 × 4 + 7 × (−2) + 3 × (−1)", "jawaban": 43 }
+    ]
+  },
+  "literasiPre": {
+    "judul": "Tes Literasi Awal",
+    "petunjuk": "Baca stimulus dengan teliti, lalu jawab 4 soal. Soal terakhir dijawab dengan kalimatmu sendiri.",
+    "stimulus": {
+      "id": "STM-TPRE", "judul": "Ketinggian Beberapa Tempat", "konteks": "saintifik", "dataIlustratif": true,
+      "kalimat": ["Tabel menunjukkan ketinggian beberapa tempat terhadap permukaan laut.", "Permukaan laut dianggap 0 m."],
+      "tabel": { "kolom": ["Tempat", "Ketinggian (m)"], "baris": [["Puncak bukit", "120"], ["Pantai", "0"], ["Dasar danau", "−35"], ["Gua bawah tanah", "−50"]] },
+      "butir": [
+        { "id": "TLPRE-1", "bentuk": "pg", "indikator": ["LM1"], "levelAkm": "penerapan", "soal": "Model untuk selisih ketinggian puncak bukit dan dasar danau adalah …", "opsi": ["120 − (−35)", "120 − 35", "120 + (−35)"], "kunci": 0 },
+        { "id": "TLPRE-2", "bentuk": "isian", "indikator": ["LM2"], "levelAkm": "penerapan", "soal": "Berapa meter selisih ketinggian puncak bukit dan gua bawah tanah?", "modelPembahasan": "120 − (−50)", "kunci": 170, "satuan": "meter" },
+        { "id": "TLPRE-3", "bentuk": "pgKompleksBS", "indikator": ["LM3"], "levelAkm": "penerapan", "soal": "Tentukan Benar atau Salah.",
+          "pernyataan": [
+            { "teks": "Dasar danau berada 35 m di bawah permukaan laut.", "kunci": true },
+            { "teks": "Gua bawah tanah lebih tinggi daripada dasar danau.", "kunci": false },
+            { "teks": "Selisih ketinggian dasar danau dan gua adalah 15 m.", "kunci": true }
+          ] },
+        { "id": "TLPRE-4", "bentuk": "uraian", "indikator": ["LM4"], "levelAkm": "penalaran", "soal": "Rudi berkata: \"Gua lebih tinggi daripada dasar danau karena 50 lebih besar dari 35.\" Setujukah kamu? Jelaskan." }
+      ]
+    }
+  },
+  "literasiPost": {
+    "judul": "Tes Literasi Akhir",
+    "petunjuk": "Baca stimulus dengan teliti, lalu jawab 4 soal. Soal terakhir dijawab dengan kalimatmu sendiri.",
+    "stimulus": {
+      "id": "STM-TPOST", "judul": "Suhu Minimum Empat Kota", "konteks": "saintifik", "dataIlustratif": true,
+      "kalimat": ["Tabel menunjukkan suhu minimum empat kota pada suatu malam."],
+      "tabel": { "kolom": ["Kota", "Suhu minimum (°C)"], "baris": [["Kota P", "−9"], ["Kota Q", "4"], ["Kota R", "−2"], ["Kota S", "−15"]] },
+      "butir": [
+        { "id": "TLPOST-1", "bentuk": "pg", "indikator": ["LM1"], "levelAkm": "penerapan", "soal": "Model untuk selisih suhu Kota Q dan Kota S adalah …", "opsi": ["4 − (−15)", "4 − 15", "4 + (−15)"], "kunci": 0 },
+        { "id": "TLPOST-2", "bentuk": "isian", "indikator": ["LM2"], "levelAkm": "penerapan", "soal": "Berapa °C selisih suhu Kota Q dan Kota P?", "modelPembahasan": "4 − (−9)", "kunci": 13, "satuan": "°C" },
+        { "id": "TLPOST-3", "bentuk": "pgKompleksBS", "indikator": ["LM3"], "levelAkm": "penerapan", "soal": "Tentukan Benar atau Salah.",
+          "pernyataan": [
+            { "teks": "Kota S adalah kota paling dingin.", "kunci": true },
+            { "teks": "Kota R lebih dingin daripada Kota P.", "kunci": false },
+            { "teks": "Selisih suhu Kota P dan Kota S adalah 6 °C.", "kunci": true }
+          ] },
+        { "id": "TLPOST-4", "bentuk": "uraian", "indikator": ["LM4"], "levelAkm": "penalaran", "soal": "Lina berkata: \"Kota P lebih hangat daripada Kota R karena 9 lebih besar dari 2.\" Setujukah kamu? Jelaskan." }
+      ]
+    }
+  }
+}

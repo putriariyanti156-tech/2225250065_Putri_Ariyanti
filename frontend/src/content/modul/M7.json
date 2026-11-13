@@ -1,0 +1,54 @@
+{
+  "id": "M7",
+  "nomor": 7,
+  "judul": "Bilangan Bulat di Sekitar Kita",
+  "ringkas": "Literasi matematika: tabel, cerita, dan alasan",
+  "tujuan": "Merumuskan, menerapkan, menafsirkan, dan mengevaluasi operasi bilangan bulat dalam berbagai konteks.",
+  "kartu": [
+    {
+      "judul": "Apa itu literasi matematika?",
+      "teks": "Literasi matematika adalah kemampuan memakai matematika untuk memahami dan menyelesaikan masalah sehari-hari, lalu menilai apakah hasilnya masuk akal."
+    },
+    {
+      "judul": "Empat kegiatan literasi",
+      "teks": "Setiap soal di modul ini melatih satu atau lebih kegiatan berikut.",
+      "visual": { "tipe": "daftar", "butir": ["Merumuskan: ubah situasi menjadi model matematika", "Menerapkan: hitung dengan benar", "Menafsirkan: apa arti hasilnya dalam situasi itu?", "Mengevaluasi: apakah masuk akal? Apakah pendapat itu benar?"] }
+    },
+    {
+      "judul": "Cara membaca stimulus",
+      "teks": "Stimulus adalah teks atau tabel di atas soal. Baca dengan lima pertanyaan ini.",
+      "visual": { "tipe": "strategi" },
+      "pemandu": "Tombol ? di pojok bawah selalu bisa kamu buka untuk melihat lima pertanyaan ini."
+    }
+  ],
+  "contoh": {
+    "lengkap": [
+      {
+        "id": "WE-M7-01",
+        "soal": "Tabungan Tono Rp15.000. Setiap hari ia mengambil Rp4.000 untuk jajan, selama 5 hari. Bagaimana keadaan tabungannya?",
+        "jawaban": -5,
+        "langkah": [
+          { "teks": "Merumuskan: dalam ribu rupiah, mengambil 4 ditulis −4. Model: 15 + 5 × (−4)." },
+          { "teks": "Menerapkan: 5 × (−4) = −20, lalu 15 + (−20) = −5." },
+          { "teks": "Menafsirkan: −5 berarti uang Tono kurang Rp5.000." },
+          { "teks": "Mengevaluasi: masuk akal, karena 5 × Rp4.000 = Rp20.000 lebih banyak dari Rp15.000. Tono tidak bisa jajan sebanyak itu selama 5 hari." }
+        ]
+      }
+    ],
+    "berlubang": [
+      {
+        "id": "WE-M7-02",
+        "soal": "Saldo kartu bus Ani Rp12.000. Setiap naik bus terpotong Rp3.000. Ani naik bus 6 kali. (Hitung dalam ribu rupiah.)",
+        "langkah": [
+          { "teks": "Merumuskan: model 12 + 6 × (−3)." },
+          { "teks": "Menerapkan: 6 × (−3) = ___.", "isian": -18 },
+          { "teks": "Lalu 12 + (−18) = ___.", "isian": -6 },
+          { "teks": "Menafsirkan: −6 berarti saldo kurang Rp6.000. Ani perlu mengisi ulang kartunya sebelum naik bus yang ke-5." }
+        ]
+      }
+    ]
+  },
+  "latihan": [],
+  "jelaskan": [],
+  "literasi": ["STM-A", "STM-B", "STM-D", "STM-E"]
+}

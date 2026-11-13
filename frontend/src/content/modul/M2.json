@@ -1,0 +1,108 @@
+{
+  "id": "M2",
+  "nomor": 2,
+  "judul": "Pengurangan",
+  "ringkas": "Mengurangi = menambah lawannya",
+  "tujuan": "Menghitung hasil pengurangan bilangan bulat dan menjelaskan bahwa a − b = a + (−b).",
+  "kartu": [
+    {
+      "judul": "Mengurangi = menambah lawannya",
+      "teks": "Setiap pengurangan dapat diubah menjadi penjumlahan dengan lawan bilangan kedua: a − b = a + (−b).",
+      "visual": { "tipe": "ekspresi", "teks": "7 − 10 = 7 + (−10)" }
+    },
+    {
+      "judul": "Mengurangi bilangan positif",
+      "teks": "7 − 10 = 7 + (−10). Mulai di 7, lalu bergerak 10 langkah ke kiri. Hasilnya −3.",
+      "visual": { "tipe": "garis", "mulai": 7, "langkah": [-10] }
+    },
+    {
+      "judul": "Mengurangi bilangan negatif",
+      "teks": "3 − (−4) = 3 + 4. Mengurangi bilangan negatif berarti bergerak ke kanan. Hasilnya 7.",
+      "visual": { "tipe": "garis", "mulai": 3, "langkah": [4] },
+      "pemandu": "Lawan dari −4 adalah 4. Jadi kurang −4 sama dengan tambah 4."
+    },
+    {
+      "judul": "Hati-hati!",
+      "teks": "Jangan menghilangkan tanda negatif. 12 − (−5) bukan 12 − 5. Ubah dulu menjadi 12 + 5 = 17.",
+      "visual": { "tipe": "ekspresi", "teks": "12 − (−5) = 12 + 5 = 17" }
+    }
+  ],
+  "contoh": {
+    "lengkap": [
+      {
+        "id": "WE-M2-01", "soal": "7 − 10", "jawaban": -3,
+        "visual": { "tipe": "garis", "mulai": 7, "langkah": [-10] },
+        "langkah": [
+          { "teks": "Ubah menjadi penjumlahan: 7 − 10 = 7 + (−10)." },
+          { "teks": "Mulai di 7, bergerak 10 langkah ke kiri." },
+          { "teks": "Hasilnya −3." }
+        ]
+      },
+      {
+        "id": "WE-M2-02", "soal": "3 − (−8)", "jawaban": 11,
+        "visual": { "tipe": "garis", "mulai": 3, "langkah": [8] },
+        "langkah": [
+          { "teks": "Ubah menjadi penjumlahan: 3 − (−8) = 3 + 8." },
+          { "teks": "Mulai di 3, bergerak 8 langkah ke kanan." },
+          { "teks": "Hasilnya 11." }
+        ]
+      }
+    ],
+    "berlubang": [
+      {
+        "id": "WE-M2-03", "soal": "−5 − (−2)",
+        "langkah": [
+          { "teks": "Ubah menjadi −5 + ___.", "isian": 2 },
+          { "teks": "Hasilnya ___.", "isian": -3 }
+        ]
+      },
+      {
+        "id": "WE-M2-04", "soal": "−4 − 6",
+        "langkah": [
+          { "teks": "Ubah menjadi −4 + (___).", "isian": -6 },
+          { "teks": "Hasilnya ___.", "isian": -10 }
+        ]
+      }
+    ]
+  },
+  "latihan": [
+    {
+      "id": "L1-03", "tipe": "ekspresi", "soal": "12 − (−5)", "jawaban": 17,
+      "petunjuk": ["Ubah pengurangan menjadi penjumlahan dengan lawannya.", "12 − (−5) = 12 + 5."],
+      "umpanBalikKhusus": [{ "jawaban": 7, "miskonsepsi": "MK-03" }],
+      "contohMirip": "WE-M2-02"
+    },
+    {
+      "id": "L1-06", "tipe": "ekspresi", "soal": "−9 − 6", "jawaban": -15,
+      "petunjuk": ["−9 − 6 = −9 + (−6).", "Kedua bilangan negatif: jumlahkan, tandanya negatif."],
+      "umpanBalikKhusus": [{ "jawaban": -3, "miskonsepsi": "MK-02" }, { "jawaban": 15, "miskonsepsi": "MK-05" }],
+      "contohMirip": "WE-M2-04"
+    },
+    {
+      "id": "L1-12", "tipe": "ekspresi", "soal": "4 − 11", "jawaban": -7,
+      "petunjuk": ["Mulai di 4, bergerak 11 langkah ke kiri.", "Kamu akan melewati nol."],
+      "contohMirip": "WE-M2-01"
+    },
+    {
+      "id": "L1-13", "tipe": "ekspresi", "soal": "−2 − (−9)", "jawaban": 7,
+      "petunjuk": ["−2 − (−9) = −2 + 9.", "Mulai di −2, bergerak 9 langkah ke kanan."],
+      "umpanBalikKhusus": [{ "jawaban": -11, "miskonsepsi": "MK-03" }],
+      "contohMirip": "WE-M2-03"
+    },
+    {
+      "id": "L1-14", "tipe": "ekspresi", "soal": "0 − (−8)", "jawaban": 8,
+      "petunjuk": ["0 − (−8) = 0 + 8."],
+      "umpanBalikKhusus": [{ "jawaban": -8, "miskonsepsi": "MK-03" }],
+      "contohMirip": "WE-M2-02"
+    }
+  ],
+  "jelaskan": [
+    {
+      "pertanyaan": "Mengapa 12 − (−5) = 17?",
+      "opsi": ["Karena mengurangi −5 sama dengan menambah 5", "Karena negatif dan negatif jadi positif", "Karena 12 − 5 = 7 lalu dibalik"],
+      "kunci": 0,
+      "penjelasan": "a − b = a + (−b). Lawan dari −5 adalah 5, jadi 12 − (−5) = 12 + 5 = 17."
+    }
+  ],
+  "literasi": ["STM-M2"]
+}

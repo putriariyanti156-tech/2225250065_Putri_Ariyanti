@@ -1,0 +1,112 @@
+{
+  "id": "M1",
+  "nomor": 1,
+  "judul": "Penjumlahan",
+  "ringkas": "Bergerak ke kanan dan ke kiri di garis bilangan",
+  "tujuan": "Menghitung hasil penjumlahan bilangan bulat dengan bantuan garis bilangan.",
+  "kartu": [
+    {
+      "judul": "Menambah bilangan positif",
+      "teks": "Mulai dari bilangan pertama. Menambah bilangan positif berarti bergerak ke kanan.",
+      "visual": { "tipe": "garis", "mulai": -3, "langkah": [5] },
+      "pemandu": "Tekan \"Jalankan langkah\" untuk melihat gerakannya. −3 + 5 = 2."
+    },
+    {
+      "judul": "Menambah bilangan negatif",
+      "teks": "Menambah bilangan negatif berarti bergerak ke kiri.",
+      "visual": { "tipe": "garis", "mulai": 2, "langkah": [-6] },
+      "pemandu": "2 + (−6) = −4. Panahnya ke kiri karena −6 negatif."
+    },
+    {
+      "judul": "Tanda sama",
+      "teks": "Jika kedua bilangan bertanda sama, jumlahkan jaraknya dari nol. Tandanya tetap.",
+      "visual": { "tipe": "garis", "mulai": -6, "langkah": [-3] },
+      "pemandu": "−6 + (−3) = −9. Dua-duanya ke arah kiri."
+    },
+    {
+      "judul": "Tanda berbeda",
+      "teks": "Jika tandanya berbeda, kurangkan jarak yang besar dengan yang kecil. Ikuti tanda bilangan yang lebih jauh dari nol.",
+      "visual": { "tipe": "garis", "mulai": 4, "langkah": [-9] },
+      "pemandu": "4 + (−9): 9 − 4 = 5, ikut tanda −9. Hasilnya −5."
+    }
+  ],
+  "contoh": {
+    "lengkap": [
+      {
+        "id": "WE-M1-01", "soal": "−5 + 8", "jawaban": 3,
+        "visual": { "tipe": "garis", "mulai": -5, "langkah": [8] },
+        "langkah": [
+          { "teks": "Mulai di −5." },
+          { "teks": "Tambah 8 berarti bergerak 8 langkah ke kanan." },
+          { "teks": "Berhenti di 3. Jadi −5 + 8 = 3." }
+        ]
+      },
+      {
+        "id": "WE-M1-02", "soal": "4 + (−9)", "jawaban": -5,
+        "visual": { "tipe": "garis", "mulai": 4, "langkah": [-9] },
+        "langkah": [
+          { "teks": "Mulai di 4." },
+          { "teks": "Tambah −9 berarti bergerak 9 langkah ke kiri." },
+          { "teks": "Berhenti di −5. Jadi 4 + (−9) = −5." }
+        ]
+      }
+    ],
+    "berlubang": [
+      {
+        "id": "WE-M1-03", "soal": "−6 + (−3)",
+        "langkah": [
+          { "teks": "Mulai di ___.", "isian": -6 },
+          { "teks": "Bergerak 3 langkah ke kiri. Berhenti di ___.", "isian": -9 }
+        ]
+      },
+      {
+        "id": "WE-M1-04", "soal": "−7 + 10",
+        "langkah": [
+          { "teks": "Mulai di −7, lalu bergerak 10 langkah ke kanan." },
+          { "teks": "Hasilnya ___.", "isian": 3 }
+        ]
+      }
+    ]
+  },
+  "latihan": [
+    {
+      "id": "L1-01", "tipe": "ekspresi", "soal": "−8 + 15", "jawaban": 7,
+      "petunjuk": ["Mulai di −8 pada garis bilangan.", "Tambah 15 berarti bergerak 15 langkah ke kanan."],
+      "umpanBalikKhusus": [{ "jawaban": -23, "miskonsepsi": "MK-01" }, { "jawaban": -7, "miskonsepsi": "MK-02" }],
+      "contohMirip": "WE-M1-01"
+    },
+    {
+      "id": "L1-05", "tipe": "ekspresi", "soal": "−3 + (−4)", "jawaban": -7,
+      "petunjuk": ["Kedua bilangan bertanda sama (negatif).", "Jumlahkan 3 + 4, tandanya tetap negatif."],
+      "umpanBalikKhusus": [{ "jawaban": 7, "miskonsepsi": "MK-05" }, { "jawaban": 1, "miskonsepsi": "MK-02" }, { "jawaban": -1, "miskonsepsi": "MK-02" }],
+      "contohMirip": "WE-M1-03"
+    },
+    {
+      "id": "L1-09", "tipe": "ekspresi", "soal": "−12 + 5", "jawaban": -7,
+      "petunjuk": ["Tandanya berbeda.", "12 − 5 = 7, ikuti tanda −12."],
+      "umpanBalikKhusus": [{ "jawaban": -17, "miskonsepsi": "MK-02" }],
+      "contohMirip": "WE-M1-01"
+    },
+    {
+      "id": "L1-10", "tipe": "ekspresi", "soal": "9 + (−14)", "jawaban": -5,
+      "petunjuk": ["Mulai di 9, bergerak 14 langkah ke kiri.", "Kamu akan melewati nol."],
+      "umpanBalikKhusus": [{ "jawaban": 23, "miskonsepsi": "MK-02" }],
+      "contohMirip": "WE-M1-02"
+    },
+    {
+      "id": "L1-11", "tipe": "ekspresi", "soal": "−20 + 20", "jawaban": 0,
+      "petunjuk": ["−20 dan 20 adalah lawan bilangan.", "Bilangan ditambah lawannya hasilnya …"],
+      "umpanBalikKhusus": [{ "jawaban": -40, "miskonsepsi": "MK-01" }, { "jawaban": 40, "miskonsepsi": "MK-05" }],
+      "contohMirip": "WE-M1-04"
+    }
+  ],
+  "jelaskan": [
+    {
+      "pertanyaan": "Mengapa −8 + 15 hasilnya positif?",
+      "opsi": ["Karena 15 lebih jauh dari nol daripada −8, dan 15 positif", "Karena negatif ditambah positif selalu positif", "Karena 8 + 15 = 23"],
+      "kunci": 0,
+      "penjelasan": "Tandanya berbeda, jadi hasil mengikuti bilangan yang lebih jauh dari nol, yaitu 15 (positif). Negatif ditambah positif tidak selalu positif, contohnya −12 + 5 = −7."
+    }
+  ],
+  "literasi": ["STM-M1"]
+}

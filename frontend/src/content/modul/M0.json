@@ -1,0 +1,99 @@
+{
+  "id": "M0",
+  "nomor": 0,
+  "judul": "Mengenal Bilangan Bulat",
+  "ringkas": "Positif, nol, negatif, dan garis bilangan",
+  "tujuan": "Menentukan letak dan membandingkan bilangan bulat pada garis bilangan.",
+  "kartu": [
+    {
+      "judul": "Bilangan bulat di sekitar kita",
+      "teks": "Suhu di puncak gunung bisa di bawah nol. Lantai parkir bisa di bawah tanah. Keadaan seperti ini ditulis dengan bilangan negatif.",
+      "visual": { "tipe": "garis", "mulai": 0, "langkah": [], "titik": [-5, 0, 5], "min": -6, "max": 6 },
+      "pemandu": "Di sebelah kiri nol ada bilangan negatif, di kanan nol ada bilangan positif."
+    },
+    {
+      "judul": "Positif, nol, negatif",
+      "teks": "Bilangan bulat terdiri dari bilangan negatif (…, −3, −2, −1), nol (0), dan bilangan positif (1, 2, 3, …).",
+      "visual": { "tipe": "garis", "mulai": 0, "langkah": [], "titik": [-3, -2, -1, 0, 1, 2, 3], "min": -5, "max": 5 }
+    },
+    {
+      "judul": "Makin ke kanan, makin besar",
+      "teks": "Bilangan di sebelah kanan selalu lebih besar. Jadi −2 lebih besar dari −7, walaupun 7 lebih besar dari 2.",
+      "visual": { "tipe": "garis", "mulai": 0, "langkah": [], "titik": [-7, -2], "min": -9, "max": 2 },
+      "pemandu": "−2 lebih dekat ke nol, jadi −2 lebih hangat daripada −7!"
+    },
+    {
+      "judul": "Lawan bilangan",
+      "teks": "Lawan dari 4 adalah −4. Keduanya sama jauh dari nol, tetapi arahnya berlawanan.",
+      "visual": { "tipe": "garis", "mulai": 0, "langkah": [], "titik": [-4, 4], "min": -6, "max": 6 }
+    }
+  ],
+  "contoh": {
+    "lengkap": [
+      {
+        "id": "WE-M0-01",
+        "soal": "Bandingkan −8 dan −3",
+        "visual": { "tipe": "garis", "mulai": 0, "langkah": [], "titik": [-8, -3], "min": -10, "max": 1 },
+        "langkah": [
+          { "teks": "Letakkan −8 dan −3 pada garis bilangan." },
+          { "teks": "−3 berada di sebelah kanan −8." },
+          { "teks": "Jadi −3 lebih besar. Ditulis −8 < −3." }
+        ]
+      }
+    ],
+    "berlubang": [
+      {
+        "id": "WE-M0-02",
+        "soal": "Lawan dari −6",
+        "langkah": [
+          { "teks": "−6 berjarak 6 langkah di kiri nol." },
+          { "teks": "Lawannya berjarak 6 langkah di kanan nol, yaitu ___.", "isian": 6 }
+        ]
+      },
+      {
+        "id": "WE-M0-03",
+        "soal": "Bilangan 3 langkah di kiri 1",
+        "langkah": [
+          { "teks": "Mulai di 1." },
+          { "teks": "Bergerak 3 langkah ke kiri: 0, −1, ___.", "isian": -2 }
+        ]
+      }
+    ]
+  },
+  "latihan": [
+    {
+      "id": "L0-01", "tipe": "pilihan", "soal": "Manakah yang lebih besar?", "opsi": ["−9", "−4"], "kunci": 1,
+      "petunjuk": ["Bayangkan keduanya di garis bilangan.", "Yang lebih kanan lebih besar."],
+      "pembahasan": "−4 berada di sebelah kanan −9, jadi −4 lebih besar.", "contohMirip": "WE-M0-01"
+    },
+    {
+      "id": "L0-02", "tipe": "pilihan", "soal": "Urutan dari yang terkecil: −1, 3, −6, 0", "opsi": ["−6, −1, 0, 3", "−1, −6, 0, 3", "0, −1, 3, −6"], "kunci": 0,
+      "petunjuk": ["Mulai dari bilangan paling kiri di garis bilangan.", "Bilangan negatif yang paling jauh dari nol adalah yang terkecil."],
+      "pembahasan": "Dari kiri ke kanan: −6, −1, 0, 3.", "contohMirip": "WE-M0-01"
+    },
+    {
+      "id": "L0-03", "tipe": "pilihan", "soal": "Lawan dari 15 adalah …", "opsi": ["15", "−15", "0"], "kunci": 1,
+      "petunjuk": ["Lawan bilangan sama jauh dari nol.", "Arahnya berlawanan."],
+      "pembahasan": "Lawan dari 15 adalah −15.", "contohMirip": "WE-M0-02"
+    },
+    {
+      "id": "L0-04", "tipe": "pilihan", "soal": "Suhu 5 °C di bawah nol ditulis …", "opsi": ["5 °C", "−5 °C", "0 °C"], "kunci": 1,
+      "petunjuk": ["Di bawah nol berarti negatif."],
+      "pembahasan": "5 °C di bawah nol ditulis −5 °C."
+    },
+    {
+      "id": "L0-05", "tipe": "pilihan", "soal": "Pernyataan yang benar adalah …", "opsi": ["−10 > −2", "−10 < −2", "−10 = −2"], "kunci": 1,
+      "petunjuk": ["Mana yang lebih kiri: −10 atau −2?", "Yang lebih kiri lebih kecil."],
+      "pembahasan": "−10 berada di kiri −2, jadi −10 < −2.", "contohMirip": "WE-M0-01"
+    }
+  ],
+  "jelaskan": [
+    {
+      "pertanyaan": "Mengapa −2 lebih besar dari −7?",
+      "opsi": ["Karena 2 lebih kecil dari 7", "Karena −2 terletak di sebelah kanan −7 pada garis bilangan", "Karena keduanya negatif"],
+      "kunci": 1,
+      "penjelasan": "Pada garis bilangan, yang lebih kanan selalu lebih besar. −2 lebih dekat ke nol daripada −7."
+    }
+  ],
+  "literasi": ["STM-M0"]
+}

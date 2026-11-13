@@ -1,0 +1,305 @@
+[
+  {
+    "id": "STM-M0", "judul": "Suhu Terendah Empat Kota", "konteks": "saintifik", "dataIlustratif": true,
+    "kalimat": ["Tabel berikut menunjukkan suhu terendah empat kota pada suatu hari."],
+    "tabel": { "kolom": ["Kota", "Suhu terendah (°C)"], "baris": [["Kota A", "−12"], ["Kota B", "2"], ["Kota C", "−1"], ["Kota D", "−7"]] },
+    "glosarium": [{ "istilah": "suhu terendah", "arti": "Suhu paling dingin yang tercatat dalam satu hari." }],
+    "butir": [
+      {
+        "id": "LIT-M0-1", "bentuk": "pg", "indikator": ["LM1"], "levelAkm": "pemahaman",
+        "soal": "Kota manakah yang paling dingin?", "opsi": ["Kota A", "Kota B", "Kota C", "Kota D"], "kunci": 0,
+        "pembahasan": "Paling dingin = bilangan terkecil. −12 terletak paling kiri pada garis bilangan."
+      },
+      {
+        "id": "LIT-M0-2", "bentuk": "pgKompleksBS", "indikator": ["LM3"], "levelAkm": "penerapan",
+        "soal": "Tentukan Benar atau Salah untuk setiap pernyataan.",
+        "pernyataan": [
+          { "teks": "Kota D lebih dingin daripada Kota C.", "kunci": true },
+          { "teks": "Kota B satu-satunya kota yang suhunya di atas 0 °C.", "kunci": true },
+          { "teks": "Suhu Kota C lebih rendah daripada Kota A.", "kunci": false }
+        ],
+        "pembahasan": "−7 < −1, jadi Kota D lebih dingin. Hanya 2 yang positif. −1 > −12, jadi Kota C lebih hangat dari Kota A."
+      },
+      {
+        "id": "LIT-M0-3", "bentuk": "pilihAlasan", "indikator": ["LM4"], "levelAkm": "penalaran",
+        "tokoh": "Rina", "klaim": "Kota A paling dingin karena 12 lebih besar dari 7.",
+        "kunciKlaim": 1,
+        "opsiAlasan": ["−12 terletak di sebelah kiri −7 pada garis bilangan, jadi −12 lebih kecil", "12 lebih besar dari 7, jadi Rina benar", "Kota A paling dingin karena hurufnya paling awal"],
+        "kunciAlasan": 0, "izinkanUraian": true,
+        "pembahasan": "Kesimpulan Rina benar, tetapi alasannya kurang tepat. Pada bilangan negatif, makin jauh ke kiri makin kecil: −12 < −7."
+      }
+    ]
+  },
+  {
+    "id": "STM-M1", "judul": "Skor Permainan Kartu", "konteks": "personal", "dataIlustratif": true,
+    "kalimat": ["Dika bermain kartu dengan skor awal 0.", "Skor Dika pada setiap ronde tercatat di tabel."],
+    "tabel": { "kolom": ["Ronde", "Skor ronde"], "baris": [["1", "−5"], ["2", "+12"], ["3", "−4"]] },
+    "glosarium": [{ "istilah": "ronde", "arti": "Satu putaran permainan." }],
+    "butir": [
+      {
+        "id": "LIT-M1-1", "bentuk": "isian", "indikator": ["LM1", "LM2"], "levelAkm": "penerapan",
+        "soal": "Berapa skor total Dika setelah 3 ronde?", "modelPembahasan": "−5 + 12 + (−4)", "kunci": 3,
+        "pembahasan": "−5 + 12 + (−4) = 7 + (−4) = 3."
+      },
+      {
+        "id": "LIT-M1-2", "bentuk": "pg", "indikator": ["LM2", "LM3"], "levelAkm": "penerapan",
+        "soal": "Setelah ronde berapa skor total Dika pertama kali positif?", "opsi": ["Ronde 1", "Ronde 2", "Ronde 3"], "kunci": 1,
+        "pembahasan": "Skor total: ronde 1 = −5, ronde 2 = −5 + 12 = 7 (positif), ronde 3 = 3."
+      },
+      {
+        "id": "LIT-M1-3", "bentuk": "pgKompleksBS", "indikator": ["LM3"], "levelAkm": "penerapan",
+        "soal": "Tentukan Benar atau Salah.",
+        "pernyataan": [
+          { "teks": "Skor total Dika setelah ronde 1 adalah −5.", "kunci": true },
+          { "teks": "Skor akhir Dika negatif.", "kunci": false }
+        ],
+        "pembahasan": "Skor akhir Dika 3, yaitu positif."
+      }
+    ]
+  },
+  {
+    "id": "STM-M2", "judul": "Di Atas dan Di Bawah Laut", "konteks": "saintifik", "dataIlustratif": true,
+    "kalimat": ["Seekor burung terbang 9 meter di atas permukaan laut.", "Seorang penyelam berada 6 meter di bawah permukaan laut.", "Permukaan laut dianggap 0."],
+    "glosarium": [{ "istilah": "jarak vertikal", "arti": "Jarak arah atas-bawah antara dua posisi." }],
+    "butir": [
+      {
+        "id": "LIT-M2-1", "bentuk": "pg", "indikator": ["LM1"], "levelAkm": "pemahaman",
+        "soal": "Bilangan bulat untuk posisi penyelam adalah …", "opsi": ["6", "−6", "0"], "kunci": 1,
+        "pembahasan": "Di bawah permukaan laut ditulis negatif: −6."
+      },
+      {
+        "id": "LIT-M2-2", "bentuk": "isian", "indikator": ["LM2", "LM3"], "levelAkm": "penerapan",
+        "soal": "Berapa meter jarak vertikal burung dan penyelam?", "modelPembahasan": "9 − (−6)", "kunci": 15, "satuan": "meter",
+        "pembahasan": "9 − (−6) = 9 + 6 = 15 meter."
+      },
+      {
+        "id": "LIT-M2-3", "bentuk": "pilihAlasan", "indikator": ["LM4"], "levelAkm": "penalaran",
+        "tokoh": "Budi", "klaim": "Jarak burung dan penyelam adalah 9 − 6 = 3 meter.",
+        "kunciKlaim": 1,
+        "opsiAlasan": ["Posisi penyelam −6, jadi jaraknya 9 − (−6) = 15 meter", "Budi benar karena 9 − 6 = 3", "Jarak tidak bisa dihitung karena penyelam di dalam air"],
+        "kunciAlasan": 0, "izinkanUraian": true,
+        "pembahasan": "Budi lupa bahwa penyelam berada di bawah nol. Dari −6 ke 9 ada 15 langkah."
+      }
+    ]
+  },
+  {
+    "id": "STM-M3", "judul": "Freezer Baru", "konteks": "personal", "dataIlustratif": true,
+    "kalimat": ["Sebuah freezer baru dinyalakan saat suhunya 10 °C.", "Suhu di dalamnya turun 3 °C setiap jam."],
+    "glosarium": [{ "istilah": "freezer", "arti": "Lemari pembeku, bagian kulkas yang sangat dingin." }],
+    "butir": [
+      {
+        "id": "LIT-M3-1", "bentuk": "pg", "indikator": ["LM1"], "levelAkm": "pemahaman",
+        "soal": "Model perubahan suhu setelah 5 jam adalah …", "opsi": ["5 × (−3)", "5 × 3", "5 + (−3)"], "kunci": 0,
+        "pembahasan": "Turun 3 °C ditulis −3, terjadi 5 kali: 5 × (−3) = −15."
+      },
+      {
+        "id": "LIT-M3-2", "bentuk": "isian", "indikator": ["LM2"], "levelAkm": "penerapan",
+        "soal": "Berapa suhu di dalam freezer setelah 5 jam?", "modelPembahasan": "10 + 5 × (−3)", "kunci": -5, "satuan": "°C",
+        "pembahasan": "Perubahan 5 × (−3) = −15, lalu 10 + (−15) = −5 °C."
+      },
+      {
+        "id": "LIT-M3-3", "bentuk": "pgKompleksBS", "indikator": ["LM3"], "levelAkm": "penerapan",
+        "soal": "Tentukan Benar atau Salah.",
+        "pernyataan": [
+          { "teks": "Setelah 5 jam, suhu berada di bawah 0 °C.", "kunci": true },
+          { "teks": "Setelah 2 jam, suhunya 4 °C.", "kunci": true },
+          { "teks": "Perubahan suhu setelah 4 jam adalah 12 °C.", "kunci": false }
+        ],
+        "pembahasan": "Setelah 2 jam: 10 + 2 × (−3) = 4. Perubahan 4 jam: 4 × (−3) = −12 °C (turun), bukan 12."
+      }
+    ]
+  },
+  {
+    "id": "STM-M4", "judul": "Kas Koperasi Sekolah", "konteks": "sosial-budaya", "dataIlustratif": true,
+    "kalimat": ["Selama 4 minggu, kas koperasi sekolah berubah sebesar −Rp36.000.", "Perubahan setiap minggu sama besar.", "Hitung dalam ribu rupiah."],
+    "glosarium": [{ "istilah": "kas", "arti": "Uang yang dimiliki dan dicatat oleh koperasi." }],
+    "butir": [
+      {
+        "id": "LIT-M4-1", "bentuk": "pg", "indikator": ["LM1"], "levelAkm": "pemahaman",
+        "soal": "Model untuk perubahan kas setiap minggu adalah …", "opsi": ["−36 : 4", "36 × 4", "−36 × 4"], "kunci": 0,
+        "pembahasan": "Perubahan total dibagi rata ke 4 minggu: −36 : 4."
+      },
+      {
+        "id": "LIT-M4-2", "bentuk": "isian", "indikator": ["LM2", "LM3"], "levelAkm": "penerapan",
+        "soal": "Berapa perubahan kas setiap minggu (dalam ribu rupiah)?", "modelPembahasan": "−36 : 4", "kunci": -9, "satuan": "ribu rupiah",
+        "pembahasan": "−36 : 4 = −9. Artinya kas berkurang Rp9.000 setiap minggu."
+      },
+      {
+        "id": "LIT-M4-3", "bentuk": "pgKompleksBS", "indikator": ["LM3", "LM4"], "levelAkm": "penalaran",
+        "soal": "Tentukan Benar atau Salah.",
+        "pernyataan": [
+          { "teks": "Kas berkurang Rp9.000 setiap minggu.", "kunci": true },
+          { "teks": "Jika polanya sama, setelah 6 minggu kas berkurang Rp54.000.", "kunci": true },
+          { "teks": "Perubahan −9 berarti kas bertambah.", "kunci": false }
+        ],
+        "pembahasan": "6 × (−9) = −54, jadi berkurang Rp54.000. Tanda negatif berarti berkurang."
+      }
+    ]
+  },
+  {
+    "id": "STM-M5", "judul": "Skor Kuis Sari", "konteks": "personal", "dataIlustratif": true,
+    "kalimat": ["Dalam kuis: jawaban benar +4, salah −2, tidak dijawab −1.", "Dari 20 soal, Sari menjawab benar 12 dan salah 5.", "Sisanya tidak dijawab."],
+    "butir": [
+      {
+        "id": "LIT-M5-1", "bentuk": "pg", "indikator": ["LM1"], "levelAkm": "penerapan",
+        "soal": "Model yang tepat untuk skor Sari adalah …",
+        "opsi": ["12 × 4 + 5 × (−2) + 3 × (−1)", "12 + 4 + 5 − 2 + 3 − 1", "(12 + 5 + 3) × 4"], "kunci": 0,
+        "pembahasan": "Yang tidak dijawab: 20 − 12 − 5 = 3 soal. Setiap kelompok dikali skornya."
+      },
+      {
+        "id": "LIT-M5-2", "bentuk": "isian", "indikator": ["LM2"], "levelAkm": "penerapan",
+        "soal": "Berapa skor Sari?", "modelPembahasan": "12 × 4 + 5 × (−2) + 3 × (−1)", "kunci": 35,
+        "pembahasan": "48 + (−10) + (−3) = 35."
+      },
+      {
+        "id": "LIT-M5-3", "bentuk": "pilihAlasan", "indikator": ["LM4"], "levelAkm": "penalaran",
+        "tokoh": "Andi", "klaim": "Skor Sari 48, karena jawaban salah dan kosong tidak dihitung.",
+        "kunciKlaim": 1,
+        "opsiAlasan": ["Jawaban salah dan kosong mengurangi skor: 48 + (−10) + (−3) = 35", "Andi benar karena hanya jawaban benar yang dihitung", "Skornya 48 − 5 − 3 = 40"],
+        "kunciAlasan": 0, "izinkanUraian": true,
+        "pembahasan": "Aturan kuis memberi skor negatif untuk salah (−2) dan kosong (−1), jadi keduanya harus dihitung."
+      }
+    ]
+  },
+  {
+    "id": "STM-C", "judul": "Kas Kelas", "konteks": "sosial-budaya", "dataIlustratif": true,
+    "kalimat": ["Saldo awal kas kelas Rp20.000.", "Tabel menunjukkan perubahan kas setiap minggu dalam ribu rupiah.", "Tanda + berarti pemasukan, tanda − berarti pengeluaran."],
+    "tabel": { "kolom": ["Minggu", "Perubahan (ribu rupiah)"], "baris": [["1", "+25"], ["2", "−40"], ["3", "+15"], ["4", "−10"]] },
+    "glosarium": [{ "istilah": "saldo", "arti": "Jumlah uang yang tersisa." }, { "istilah": "pemasukan", "arti": "Uang yang masuk ke kas." }, { "istilah": "pengeluaran", "arti": "Uang yang dipakai dari kas." }],
+    "butir": [
+      {
+        "id": "LIT-C1", "bentuk": "isian", "indikator": ["LM1", "LM2"], "levelAkm": "penerapan",
+        "soal": "Berapa saldo kas pada akhir minggu ke-4 (ribu rupiah)?", "modelPembahasan": "20 + 25 − 40 + 15 − 10", "kunci": 10, "satuan": "ribu rupiah",
+        "pembahasan": "20 + 25 − 40 + 15 − 10 = 10, yaitu Rp10.000."
+      },
+      {
+        "id": "LIT-C2", "bentuk": "pg", "indikator": ["LM2", "LM3"], "levelAkm": "penerapan",
+        "soal": "Pada akhir minggu ke berapa saldo kas paling sedikit?", "opsi": ["Minggu 1", "Minggu 2", "Minggu 3", "Minggu 4"], "kunci": 1,
+        "pembahasan": "Saldo berturut-turut: 45, 5, 20, 10 ribu. Paling sedikit di minggu 2."
+      },
+      {
+        "id": "LIT-C3", "bentuk": "isian", "indikator": ["LM3"], "levelAkm": "penalaran",
+        "soal": "Di minggu ke-5, kelas ingin membeli bola seharga Rp35.000. Berapa saldo kas jika bola dibeli (ribu rupiah)?", "modelPembahasan": "10 − 35", "kunci": -25, "satuan": "ribu rupiah",
+        "pembahasan": "10 − 35 = −25. Artinya uang kas kurang Rp25.000, jadi belum cukup untuk membeli bola."
+      },
+      {
+        "id": "LIT-C4", "bentuk": "uraian", "indikator": ["LM4"], "levelAkm": "penalaran",
+        "soal": "Menurutmu, apakah kelas sebaiknya membeli bola minggu ini? Jelaskan dengan perhitunganmu.",
+        "contohJawaban": "Sebaiknya belum, karena saldo hanya Rp10.000 dan harga bola Rp35.000. Jika dibeli, kas kurang Rp25.000 (10 − 35 = −25). Kelas perlu menabung dulu."
+      }
+    ]
+  },
+  {
+    "id": "STM-A", "judul": "Suhu Empat Kota", "konteks": "saintifik", "dataIlustratif": true,
+    "kalimat": ["Tabel menunjukkan suhu terendah dan tertinggi empat kota dalam satu hari."],
+    "tabel": { "kolom": ["Kota", "Terendah (°C)", "Tertinggi (°C)"], "baris": [["Kota A", "−12", "−3"], ["Kota B", "2", "9"], ["Kota C", "−1", "17"], ["Kota D", "−7", "3"]] },
+    "glosarium": [{ "istilah": "selisih suhu", "arti": "Suhu tertinggi dikurangi suhu terendah." }],
+    "butir": [
+      {
+        "id": "LIT-A1", "bentuk": "pg", "indikator": ["LM1", "LM2"], "levelAkm": "penerapan",
+        "soal": "Kota manakah yang selisih suhu tertinggi dan terendahnya paling besar?", "opsi": ["Kota A", "Kota B", "Kota C", "Kota D"], "kunci": 2,
+        "pembahasan": "Selisih: A = −3 − (−12) = 9, B = 7, C = 17 − (−1) = 18, D = 3 − (−7) = 10. Paling besar Kota C."
+      },
+      {
+        "id": "LIT-A2", "bentuk": "pgKompleksBS", "indikator": ["LM3", "LM4"], "levelAkm": "penalaran",
+        "soal": "Tentukan Benar atau Salah.",
+        "pernyataan": [
+          { "teks": "Suhu terendah Kota A lebih rendah daripada Kota D.", "kunci": true },
+          { "teks": "Kota B tidak pernah bersuhu di bawah 0 °C pada hari itu.", "kunci": true },
+          { "teks": "Selisih suhu Kota A lebih besar daripada Kota D.", "kunci": false },
+          { "teks": "Suhu tertinggi Kota D 10 °C lebih tinggi daripada suhu terendahnya.", "kunci": true }
+        ],
+        "pembahasan": "−12 < −7. Suhu terendah Kota B 2 °C. Selisih A = 9 dan D = 10. 3 − (−7) = 10."
+      },
+      {
+        "id": "LIT-A3", "bentuk": "pilihAlasan", "indikator": ["LM4"], "levelAkm": "penalaran",
+        "tokoh": "Dimas", "klaim": "Selisih suhu Kota D adalah 3 − 7 = −4 °C.",
+        "kunciKlaim": 1,
+        "opsiAlasan": ["Suhu terendah Kota D −7, jadi selisihnya 3 − (−7) = 10 °C", "Selisih suhu tidak boleh dihitung dengan pengurangan", "Dimas benar karena 3 − 7 = −4"],
+        "kunciAlasan": 0, "izinkanUraian": true,
+        "pembahasan": "Dimas lupa tanda negatif pada −7. Selain itu, selisih suhu tertinggi dan terendah tidak mungkin negatif."
+      }
+    ]
+  },
+  {
+    "id": "STM-B", "judul": "Lift Gedung Parkir", "konteks": "personal", "dataIlustratif": true,
+    "kalimat": ["Sebuah gedung memiliki 3 lantai bawah tanah (B1, B2, B3) dan 10 lantai di atas tanah.", "Lantai dasar (G) dianggap lantai 0.", "Tinggi setiap lantai 4 meter."],
+    "glosarium": [{ "istilah": "lantai bawah tanah", "arti": "Lantai di bawah lantai dasar, sering dipakai untuk parkir (basement)." }],
+    "butir": [
+      {
+        "id": "LIT-B1", "bentuk": "menjodohkan", "indikator": ["LM1"], "levelAkm": "pemahaman",
+        "soal": "Pasangkan nama lantai dengan bilangan bulatnya.",
+        "kiri": ["B3", "G", "B1", "Lantai 5"], "kanan": ["−1", "0", "5", "−3"], "kunci": [3, 1, 0, 2],
+        "pembahasan": "B3 = −3, G = 0, B1 = −1, Lantai 5 = 5."
+      },
+      {
+        "id": "LIT-B2", "bentuk": "pg", "indikator": ["LM1"], "levelAkm": "penerapan",
+        "soal": "Ayah memarkir mobil di B3 lalu naik lift ke lantai 7. Model untuk banyak lantai yang dilalui adalah …",
+        "opsi": ["7 − (−3)", "7 − 3", "7 + (−3)"], "kunci": 0,
+        "pembahasan": "Dari −3 ke 7: 7 − (−3) = 10 lantai."
+      },
+      {
+        "id": "LIT-B3", "bentuk": "isian", "indikator": ["LM2", "LM3"], "levelAkm": "penerapan",
+        "soal": "Berapa meter Ayah naik dari B3 ke lantai 7?", "modelPembahasan": "(7 − (−3)) × 4", "kunci": 40, "satuan": "meter",
+        "pembahasan": "10 lantai × 4 meter = 40 meter."
+      },
+      {
+        "id": "LIT-B4", "bentuk": "isian", "indikator": ["LM3"], "levelAkm": "penalaran",
+        "soal": "Dari lantai 6, Dina turun 8 lantai. Bilangan bulat untuk posisi Dina sekarang adalah …", "modelPembahasan": "6 − 8", "kunci": -2,
+        "pembahasan": "6 − 8 = −2, artinya Dina berada di lantai B2."
+      }
+    ]
+  },
+  {
+    "id": "STM-D", "judul": "Di Atas dan Di Bawah Laut", "konteks": "saintifik", "dataIlustratif": true,
+    "kalimat": ["Seekor burung camar terbang 30 m di atas permukaan laut.", "Seorang penyelam berada 12 m di bawah permukaan laut.", "Seekor ikan berenang 8 m di bawah penyelam."],
+    "butir": [
+      {
+        "id": "LIT-D1", "bentuk": "pgKompleksMulti", "indikator": ["LM1"], "levelAkm": "penalaran",
+        "soal": "Pilih SEMUA model yang benar untuk posisi ikan.", "opsi": ["−12 − 8", "−12 + 8", "−(12 + 8)", "12 − 8"], "kunci": [0, 2],
+        "pembahasan": "Ikan 8 m di bawah −12: −12 − 8 = −20, sama dengan −(12 + 8)."
+      },
+      {
+        "id": "LIT-D2", "bentuk": "isian", "indikator": ["LM2", "LM3"], "levelAkm": "penerapan",
+        "soal": "Berapa meter jarak vertikal burung camar dan penyelam?", "modelPembahasan": "30 − (−12)", "kunci": 42, "satuan": "meter",
+        "pembahasan": "30 − (−12) = 42 meter."
+      },
+      {
+        "id": "LIT-D3", "bentuk": "pilihAlasan", "indikator": ["LM4"], "levelAkm": "penalaran",
+        "tokoh": "Budi", "klaim": "Jarak burung camar dan ikan adalah 30 − 20 = 10 meter.",
+        "kunciKlaim": 1,
+        "opsiAlasan": ["Posisi ikan −20, jadi jaraknya 30 − (−20) = 50 meter", "Budi benar karena 30 − 20 = 10", "Jaraknya 30 + 12 = 42 meter"],
+        "kunciAlasan": 0, "izinkanUraian": true,
+        "pembahasan": "Ikan berada di −20. Jarak dari 30 ke −20 adalah 30 − (−20) = 50 meter."
+      }
+    ]
+  },
+  {
+    "id": "STM-E", "judul": "Satu Model, Banyak Cerita", "konteks": "saintifik", "dataIlustratif": true,
+    "kalimat": ["Perhatikan model matematika berikut: −6 + 5 × 2.", "Hasilnya adalah 4.", "Satu model bisa cocok untuk beberapa cerita yang berbeda."],
+    "butir": [
+      {
+        "id": "LIT-E1", "bentuk": "pgKompleksMulti", "indikator": ["LM1"], "levelAkm": "penalaran",
+        "soal": "Pilih SEMUA cerita yang sesuai dengan model −6 + 5 × 2.",
+        "opsi": [
+          "Es batu bersuhu −6 °C naik 2 °C setiap 3 menit, selama 15 menit.",
+          "Penyelam di kedalaman 6 m naik 2 m setiap menit, selama 5 menit.",
+          "Skor awal −6, lalu mendapat −2 sebanyak 5 kali."
+        ],
+        "kunci": [0, 1],
+        "pembahasan": "Cerita es batu: 15 : 3 = 5 kali naik 2. Cerita penyelam: 5 kali naik 2. Cerita skor modelnya −6 + 5 × (−2)."
+      },
+      {
+        "id": "LIT-E2", "bentuk": "pg", "indikator": ["LM3", "LM4"], "levelAkm": "penalaran",
+        "soal": "Untuk cerita penyelam, apa arti hasil 4?",
+        "opsi": ["Penyelam berada 4 m di atas permukaan laut. Ini tidak masuk akal untuk penyelam.", "Penyelam berada 4 m di bawah permukaan laut.", "Penyelam naik 4 m."], "kunci": 0,
+        "pembahasan": "4 positif berarti di atas permukaan laut. Model sah secara hitungan, tetapi hasilnya perlu ditafsirkan: penyelam sudah keluar dari air."
+      },
+      {
+        "id": "LIT-E3", "bentuk": "uraian", "indikator": ["LM1", "LM3"], "levelAkm": "penalaran",
+        "soal": "Buat satu cerita sendiri yang cocok dengan model −6 + 5 × 2. Jelaskan arti hasil 4 dalam ceritamu.",
+        "contohJawaban": "Saldo kartu Ani −Rp6.000 (berutang). Ia mengisi Rp2.000 sebanyak 5 kali. Saldonya sekarang Rp4.000."
+      }
+    ]
+  }
+]

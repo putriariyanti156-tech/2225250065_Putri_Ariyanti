@@ -1,0 +1,16 @@
+# Blueprint Render (https://render.com): aplikasi web + API dalam satu layanan.
+# Basis data: gunakan PostgreSQL gratis (mis. Neon/Supabase) lalu isi DATABASE_URL.
+# Tanpa DATABASE_URL, server memakai SQLite yang HILANG setiap kali layanan dimulai ulang.
+services:
+  - type: web
+    name: bulat
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/kesehatan
+    envVars:
+      - key: SECRET_KEY
+        generateValue: true
+      - key: DATABASE_URL
+        sync: false
+      - key: KODE_DAFTAR_GURU
+        sync: false

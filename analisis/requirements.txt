@@ -1,0 +1,8 @@
+# Analisis data penelitian (Python 3.11+)
+# Fungsi di analisis/statistik.py hanya butuh Python standar.
+# SciPy dipakai untuk uji normalitas & uji beda; pandas/jupyter opsional untuk eksplorasi.
+scipy>=1.14
+pandas>=2.2
+openpyxl>=3.1.5
+matplotlib>=3.9
+pytest>=8.3
