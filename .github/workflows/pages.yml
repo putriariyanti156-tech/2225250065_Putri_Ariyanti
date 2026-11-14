@@ -1,0 +1,44 @@
+# Menerbitkan aplikasi siswa (PWA) ke GitHub Pages setiap ada push ke branch main.
+# Hasil build diletakkan di branch `gh-pages`, yang disajikan GitHub Pages di:
+#   https://<akun>.github.io/<nama-repo>/
+# Bisa dibuka & DIPASANG di Android, iOS, Windows, macOS, Linux, ChromeOS, dan berjalan offline.
+name: Terbitkan ke GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  terbitkan:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: frontend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - run: npm ci --ignore-scripts
+      - name: Uji mesin matematika & validasi kunci jawaban
+        run: npm test
+      - run: npm run build
+      - run: touch dist/.nojekyll
+      - name: Unggah ke branch gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: frontend/dist
+          publish_branch: gh-pages
+          force_orphan: true
+          commit_message: "Terbitkan aplikasi"

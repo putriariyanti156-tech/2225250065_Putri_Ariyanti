@@ -71,6 +71,25 @@ Setelah dibuka sekali, aplikasi tetap bisa dipakai tanpa internet.
 
 ## Mendapatkan link web permanen (HTTPS)
 
+### Opsi 0 — GitHub Pages (gratis, otomatis dari repositori ini)
+1. Workflow menerbitkan hasil build ke branch `gh-pages`. Jika situs belum aktif, buka **Settings → Pages** lalu pilih *Deploy from a branch* → `gh-pages` / `(root)`.
+2. Setiap push ke `main` menjalankan [.github/workflows/pages.yml](.github/workflows/pages.yml): uji, build, lalu terbit otomatis.
+3. Link: `https://<akun>.github.io/<nama-repo>/`. Aplikasi siswa lengkap, bisa dipasang dan dipakai offline. Gabung kelas dan dasbor guru butuh backend (Opsi A).
+
+> GitHub Pages gratis hanya untuk repositori **publik**.
+
+### Platform yang didukung (satu aplikasi untuk semua)
+
+| Platform | Cara memasang dari link HTTPS |
+|---|---|
+| Android (Chrome, Edge, Samsung Internet) | Tombol **📲 Pasang** di aplikasi, atau menu ⋮ → *Instal aplikasi* |
+| iPhone / iPad (iOS/iPadOS 16.4+) | Buka di **Safari** → **Bagikan** → *Tambahkan ke Layar Utama* |
+| Windows 10/11 | Edge/Chrome → ikon pasang di bilah alamat (muncul di menu Start) |
+| macOS | Chrome/Edge → ikon pasang; Safari 17+ → *File → Add to Dock* |
+| Linux, ChromeOS | Chrome/Edge → ikon pasang |
+
+Ingin masuk **Play Store / Microsoft Store / App Store** juga? Masukkan link HTTPS aplikasi ke **pwabuilder.com** untuk menghasilkan paket toko dari PWA yang sama. Langkah ini butuh akun pengembang masing-masing toko (Google Play USD 25 sekali bayar; Apple USD 99/tahun dan perlu Mac).
+
 ### Opsi A — Lengkap (aplikasi + dasbor guru): Render + Neon (gratis)
 1. Unggah folder proyek ini ke repositori GitHub (boleh **private**). File `.gitignore` sudah mencegah `.env`, basis data, dan `node_modules` ikut terunggah.
 2. Buat basis data PostgreSQL gratis di **neon.tech** → salin *connection string*.
